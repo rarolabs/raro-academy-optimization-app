@@ -3,11 +3,13 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ColorResponsive } from './pages/ColorResponsive';
 
 createRoot(document.getElementById('root')!)
 .render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <ColorResponsive/>
   </React.StrictMode>
 )
 
